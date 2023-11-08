@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  /*footer*/
+.footer {
+    position: fixed; /* Fixed position to stick at the bottom */
+    bottom: 0; /* Stick to the bottom of the viewport */
+    width: 100%; /* Full width of the viewport */
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding for better appearance */
+}
+/*images decoration
+.image-container {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+  }
+  
+  .image-container img {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 100%;
+  }
+  
+  .image-container p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+   .categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .category {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .category img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .category h2 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .category p {
+    margin-top: 10px;
+    font-size: 14px;
+...........*/
+.categories{
+           text-align: center;
+            margin:auto;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            width:50%;
+}  
+.categories img {
+    max-width: 100%;
+    border: 2px solid #17f703; /* green border around images */
+    border-radius: 10px;
+    transition: transform 0.2s;
+    display: block;
+    margin:0 auto 20px auto ;
+}
+.img{
+    height: 400px;
+    width:400px;
+}
+.categories h2 {
+    font-size: 18px;
+    margin-top: 10px ;
+}
+.categories p {
+    font-size: 16px;
+    margin-top: 10px ;
+    text-align: center;
+}
+.categories:hover {
+    transform:translateY(-5px)
+}
+/*moving text welcome to barasa's online store*/
+.moving-text {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.moving-text p {
+    white-space: nowrap;
+    animation: moveText 10s linear infinite;
+}
+.moving-text p{
+    background-color: rgb(34, 164, 5);
+    color: rgb(225,253,208);
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+/*for the table row */
+.row {
+    background-color: rgb(14, 207, 59); /* Set the desired background color */
+}

@@ -1,0 +1,136 @@
+/*total summary....*/
+.total-summary {
+    background-color: #f0ededdf;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .total-summary h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family:courier;
+
+  }
+  
+  .total-summary p {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  /*todays orders table*/
+  .today-orders {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  .today-orders h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .today-orders table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .today-orders th,
+  .today-orders td {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .today-orders th {
+    background-color: #f2f2f2;
+  }
+  /*confirmed oreder table*/
+  .confirmed-orders {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  .confirmed-orders h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .confirmed-orders table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .confirmed-orders th,
+  .confirmed-orders td {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .confirmed-orders th {
+    background-color: #f2f2f2;
+  }
+  /*footer details*/
+  .footer {
+    position: fixed; /* Fixed position to stick at the bottom */
+    bottom: 0; /* Stick to the bottom of the viewport */
+    width: 100%; /* Full width of the viewport */
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding for better appearance */
+}  
+/*moving text welcome to barasa's online store*/
+.moving-text {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.moving-text p {
+    white-space: nowrap;
+    animation: moveText 10s linear infinite;
+}
+.moving-text p{
+    background-color: rgb(34, 164, 5);
+    color: rgb(225,253,208);
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+/*buttom*/
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;}
+    
+    .cart-button {
+        background-color: #007BFF;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+    
+    .cart-button img {
+        width: 20px; /* Adjust the size of the cart icon as needed */
+        margin-right: 5px; /* Add spacing between the icon and text */
+    }
+    

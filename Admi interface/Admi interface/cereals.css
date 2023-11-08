@@ -1,0 +1,50 @@
+/*moving text welcome to barasa's online store*/
+.moving-text {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.moving-text p {
+    white-space: nowrap;
+    animation: moveText 10s linear infinite;
+}
+.moving-text p{
+    background-color: rgb(34, 164, 5);
+    color: rgb(225,253,208);
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+    /*foter*/
+}.footer {
+    position: fixed; /* Fixed position to stick at the bottom */
+    bottom: 0; /* Stick to the bottom of the viewport */
+    width: 100%; /* Full width of the viewport */
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding for better appearance */
+
+}
+
+.upload {
+    background-color: #08ae1e;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.upload img {
+    width: 20px; 
+    margin-right: 5px; /* Add spacing between the icon and text */
+}
